@@ -11,6 +11,7 @@ def render_template_te(gadget):
 	return p
 
 mutations["space1"] = render_template_te("Transfer-Encoding : chunked")
+mutations["Kelvin"] = render_template_te("Transfer-Encoding: chunKed")
 mutations["nameprefix1"] = render_template_te(" Transfer-Encoding: chunked")
 mutations["tabprefix1"] = render_template_te("Transfer-Encoding:\tchunked")
 mutations["tabprefix2"] = render_template_te("Transfer-Encoding\t:\tchunked")
